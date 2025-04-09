@@ -1,0 +1,21 @@
+Analysis started at: 2025-04-02 17:55:38.103725
+
+Data loaded successfully
+
+Descriptive Statistics:
+count    274761.000000
+mean          3.058535
+std           3.623004
+min           1.000000
+25%           1.000000
+50%           2.000000
+75%           3.000000
+max          14.000000
+Name: account_pair, dtype: float64
+
+Interaction Count Proportions:
+>30次交互账户对占比: 0.00%
+>20次交互账户对占比: 0.00%
+=1次交互账户对占比: 48.32%
+
+Plot saved to: datainfo/interaction_distribution.png
