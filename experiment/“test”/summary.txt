@@ -1,0 +1,35 @@
+Model Performance Summary for “test”
+========================================
+
+Model: GTEA-LSTM+T2V (max_event=5) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-LSTM+T2V (max_event=10) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-Trans (max_event=5) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-Trans (max_event=10) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-Trans+T2V (max_event=5) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-Trans+T2V (max_event=10) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-LSTM (max_event=5) - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-LSTM (max_event=10) - Failed
+----------------------------------------
+Error occurred during execution
+

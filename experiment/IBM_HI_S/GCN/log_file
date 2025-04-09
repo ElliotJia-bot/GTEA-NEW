@@ -1,0 +1,15 @@
+| Apr 01 01:06:20 |
+Namespace(K=5, batch_size=32, bidirectional=False, data_dir='data/IBM_HI_S', dropout=None, epochs=100, gpu=0, infer_gpu=True, log_dir='experiment/IBM_HI_S', log_name='GCN', lr=0.001, max_event=20, model='GCN', node_hidden_dim=64, num_cpu=2, num_heads=4, num_layers=2, num_lstm_layers=1, num_neighbors=5, patience=100, remove_node_features=False, self_loop=False, test_batch_size=1000, time_hidden_dim=32, use_K=None, weight_decay=0.0)
+| Apr 01 01:07:05 |
+----Data statistics------'
+      #Nodes 515088
+      #Edges 4216590
+      #Node_feat 23
+      #Edge_feat 11
+      #Edge_timestep 20
+      #Classes 2
+      #Train samples 309052
+      #Val samples 103018
+      #Test samples 103018
+| Apr 01 01:07:07 |
+Start training

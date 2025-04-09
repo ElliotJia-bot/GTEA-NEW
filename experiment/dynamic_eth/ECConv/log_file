@@ -1,0 +1,15 @@
+| Mar 28 01:05:46 |
+Namespace(K=5, batch_size=32, bidirectional=False, data_dir='data/dynamic_eth', dropout=None, epochs=100, gpu=0, infer_gpu=True, log_dir='experiment/dynamic_eth', log_name='ECConv', lr=0.001, max_event=20, model='ECConv', node_hidden_dim=64, num_cpu=2, num_heads=4, num_layers=2, num_lstm_layers=1, num_neighbors=5, patience=100, remove_node_features=False, self_loop=False, test_batch_size=1000, time_hidden_dim=32, use_K=None, weight_decay=0.0)
+| Mar 28 01:05:55 |
+----Data statistics------'
+      #Nodes 2180689
+      #Edges 9541922
+      #Node_feat 23
+      #Edge_feat 4
+      #Edge_timestep 0
+      #Classes 7
+      #Train samples 265
+      #Val samples 90
+      #Test samples 90
+| Mar 28 01:05:57 |
+Start training

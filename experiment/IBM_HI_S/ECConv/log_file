@@ -1,0 +1,647 @@
+| Apr 02 01:13:17 |
+Namespace(K=5, batch_size=32, bidirectional=False, data_dir='data/IBM_HI_S', dropout=None, epochs=100, gpu=1, infer_gpu=True, log_dir='experiment/IBM_HI_S', log_name='ECConv', lr=0.001, max_event=20, model='ECConv', node_hidden_dim=64, num_cpu=2, num_heads=4, num_layers=2, num_lstm_layers=1, num_neighbors=5, patience=100, remove_node_features=False, self_loop=False, test_batch_size=1000, time_hidden_dim=32, use_K=None, weight_decay=0.0)
+| Apr 02 01:13:25 |
+----Data statistics------'
+      #Nodes 515088
+      #Edges 4216590
+      #Node_feat 23
+      #Edge_feat 4
+      #Edge_timestep 0
+      #Classes 2
+      #Train samples 309052
+      #Val samples 103018
+      #Test samples 103018
+| Apr 02 01:13:27 |
+Start training
+| Apr 02 01:16:04 |
+Epoch 00000 | Time(s) nan | 
+TrainLoss 198.7706 | TrainAcc 0.9379 | TrainPrecision 0.5115 | TrainRecall 0.5467 | TrainMacroF1 0.5117
+ValLoss 714.6907   | ValAcc 0.8157   | ValPrecision 0.5154    | ValRecall 0.6997   | ValMacroF1 0.4836
+ETputs(KTEPS) nan
+
+| Apr 02 01:18:36 |
+Epoch 00001 | Time(s) nan | 
+TrainLoss 0.1930 | TrainAcc 0.9835 | TrainPrecision 0.6161 | TrainRecall 0.5702 | TrainMacroF1 0.5871
+ValLoss 0.8265   | ValAcc 0.9896   | ValPrecision 0.8372    | ValRecall 0.6093   | ValMacroF1 0.6637
+ETputs(KTEPS) nan
+
+| Apr 02 01:21:08 |
+Epoch 00002 | Time(s) 64.5009 | 
+TrainLoss 0.0562 | TrainAcc 0.9893 | TrainPrecision 0.8717 | TrainRecall 0.6069 | TrainMacroF1 0.6644
+ValLoss 2.4517   | ValAcc 0.9664   | ValPrecision 0.5612    | ValRecall 0.6495   | ValMacroF1 0.5846
+ETputs(KTEPS) 65.37
+
+| Apr 02 01:23:47 |
+Epoch 00003 | Time(s) 64.8914 | 
+TrainLoss 0.0515 | TrainAcc 0.9896 | TrainPrecision 0.8965 | TrainRecall 0.6159 | TrainMacroF1 0.6777
+ValLoss 1.4819   | ValAcc 0.9893   | ValPrecision 0.8079    | ValRecall 0.6214   | ValMacroF1 0.6730
+ETputs(KTEPS) 64.98
+
+| Apr 02 01:26:21 |
+Epoch 00004 | Time(s) 65.1232 | 
+TrainLoss 0.0540 | TrainAcc 0.9898 | TrainPrecision 0.9061 | TrainRecall 0.6197 | TrainMacroF1 0.6832
+ValLoss 4.0190   | ValAcc 0.9588   | ValPrecision 0.5448    | ValRecall 0.6351   | ValMacroF1 0.5636
+ETputs(KTEPS) 64.75
+
+| Apr 02 01:29:02 |
+Epoch 00005 | Time(s) 67.1879 | 
+TrainLoss 0.0502 | TrainAcc 0.9899 | TrainPrecision 0.9126 | TrainRecall 0.6219 | TrainMacroF1 0.6865
+ValLoss 0.3156   | ValAcc 0.9824   | ValPrecision 0.6132    | ValRecall 0.6053   | ValMacroF1 0.6091
+ETputs(KTEPS) 62.76
+
+| Apr 02 01:31:37 |
+Epoch 00006 | Time(s) 67.0589 | 
+TrainLoss 0.0499 | TrainAcc 0.9900 | TrainPrecision 0.9213 | TrainRecall 0.6228 | TrainMacroF1 0.6885
+ValLoss 0.3879   | ValAcc 0.9831   | ValPrecision 0.6494    | ValRecall 0.6644   | ValMacroF1 0.6565
+ETputs(KTEPS) 62.88
+
+| Apr 02 01:34:13 |
+Epoch 00007 | Time(s) 66.9107 | 
+TrainLoss 0.0468 | TrainAcc 0.9901 | TrainPrecision 0.9205 | TrainRecall 0.6278 | TrainMacroF1 0.6944
+ValLoss 0.2499   | ValAcc 0.9881   | ValPrecision 0.7419    | ValRecall 0.6430   | ValMacroF1 0.6793
+ETputs(KTEPS) 63.02
+
+| Apr 02 01:36:52 |
+Epoch 00008 | Time(s) 67.0893 | 
+TrainLoss 0.0479 | TrainAcc 0.9901 | TrainPrecision 0.9222 | TrainRecall 0.6298 | TrainMacroF1 0.6969
+ValLoss 0.2713   | ValAcc 0.9897   | ValPrecision 0.8282    | ValRecall 0.6296   | ValMacroF1 0.6848
+ETputs(KTEPS) 62.85
+
+| Apr 02 01:39:32 |
+Epoch 00009 | Time(s) 67.3523 | 
+TrainLoss 0.0476 | TrainAcc 0.9902 | TrainPrecision 0.9248 | TrainRecall 0.6306 | TrainMacroF1 0.6981
+ValLoss 0.2008   | ValAcc 0.9896   | ValPrecision 0.8394    | ValRecall 0.6089   | ValMacroF1 0.6635
+ETputs(KTEPS) 62.61
+
+| Apr 02 01:42:13 |
+Epoch 00010 | Time(s) 67.6056 | 
+TrainLoss 0.0453 | TrainAcc 0.9903 | TrainPrecision 0.9297 | TrainRecall 0.6360 | TrainMacroF1 0.7050
+ValLoss 0.3872   | ValAcc 0.9861   | ValPrecision 0.6847    | ValRecall 0.6323   | ValMacroF1 0.6540
+ETputs(KTEPS) 62.37
+
+| Apr 02 01:44:55 |
+Epoch 00011 | Time(s) 67.9177 | 
+TrainLoss 0.0453 | TrainAcc 0.9903 | TrainPrecision 0.9288 | TrainRecall 0.6338 | TrainMacroF1 0.7023
+ValLoss 0.2006   | ValAcc 0.9844   | ValPrecision 0.6593    | ValRecall 0.6480   | ValMacroF1 0.6534
+ETputs(KTEPS) 62.08
+
+| Apr 02 01:47:31 |
+Epoch 00012 | Time(s) 67.9729 | 
+TrainLoss 0.0469 | TrainAcc 0.9903 | TrainPrecision 0.9294 | TrainRecall 0.6337 | TrainMacroF1 0.7022
+ValLoss 1.1343   | ValAcc 0.9606   | ValPrecision 0.5562    | ValRecall 0.6680   | ValMacroF1 0.5805
+ETputs(KTEPS) 62.03
+
+| Apr 02 01:50:05 |
+Epoch 00013 | Time(s) 67.7375 | 
+TrainLoss 0.0450 | TrainAcc 0.9903 | TrainPrecision 0.9279 | TrainRecall 0.6326 | TrainMacroF1 0.7009
+ValLoss 0.6453   | ValAcc 0.9791   | ValPrecision 0.6119    | ValRecall 0.6587   | ValMacroF1 0.6310
+ETputs(KTEPS) 62.25
+
+| Apr 02 01:52:37 |
+Epoch 00014 | Time(s) 67.5256 | 
+TrainLoss 0.0451 | TrainAcc 0.9903 | TrainPrecision 0.9267 | TrainRecall 0.6331 | TrainMacroF1 0.7013
+ValLoss 0.3167   | ValAcc 0.9883   | ValPrecision 0.7511    | ValRecall 0.6318   | ValMacroF1 0.6723
+ETputs(KTEPS) 62.44
+
+| Apr 02 01:55:11 |
+Epoch 00015 | Time(s) 67.3651 | 
+TrainLoss 0.0455 | TrainAcc 0.9904 | TrainPrecision 0.9305 | TrainRecall 0.6361 | TrainMacroF1 0.7052
+ValLoss 0.6703   | ValAcc 0.9628   | ValPrecision 0.5594    | ValRecall 0.6667   | ValMacroF1 0.5844
+ETputs(KTEPS) 62.59
+
+| Apr 02 01:57:44 |
+Epoch 00016 | Time(s) 67.2515 | 
+TrainLoss 0.0440 | TrainAcc 0.9904 | TrainPrecision 0.9356 | TrainRecall 0.6354 | TrainMacroF1 0.7049
+ValLoss 0.4503   | ValAcc 0.9703   | ValPrecision 0.5647    | ValRecall 0.6332   | ValMacroF1 0.5858
+ETputs(KTEPS) 62.70
+
+| Apr 02 02:00:19 |
+Epoch 00017 | Time(s) 67.2151 | 
+TrainLoss 0.0446 | TrainAcc 0.9904 | TrainPrecision 0.9363 | TrainRecall 0.6342 | TrainMacroF1 0.7036
+ValLoss 0.1200   | ValAcc 0.9901   | ValPrecision 0.8385    | ValRecall 0.6509   | ValMacroF1 0.7079
+ETputs(KTEPS) 62.73
+
+| Apr 02 02:02:52 |
+Epoch 00018 | Time(s) 67.1351 | 
+TrainLoss 0.0433 | TrainAcc 0.9904 | TrainPrecision 0.9364 | TrainRecall 0.6382 | TrainMacroF1 0.7083
+ValLoss 0.2005   | ValAcc 0.9903   | ValPrecision 0.8644    | ValRecall 0.6376   | ValMacroF1 0.6986
+ETputs(KTEPS) 62.81
+
+| Apr 02 02:05:31 |
+Epoch 00019 | Time(s) 67.1631 | 
+TrainLoss 0.0442 | TrainAcc 0.9905 | TrainPrecision 0.9353 | TrainRecall 0.6409 | TrainMacroF1 0.7113
+ValLoss 0.4419   | ValAcc 0.9652   | ValPrecision 0.5517    | ValRecall 0.6270   | ValMacroF1 0.5712
+ETputs(KTEPS) 62.78
+
+| Apr 02 02:08:10 |
+Epoch 00020 | Time(s) 67.2119 | 
+TrainLoss 0.0446 | TrainAcc 0.9904 | TrainPrecision 0.9361 | TrainRecall 0.6374 | TrainMacroF1 0.7074
+ValLoss 0.4140   | ValAcc 0.9900   | ValPrecision 0.8626    | ValRecall 0.6229   | ValMacroF1 0.6823
+ETputs(KTEPS) 62.74
+
+| Apr 02 02:10:48 |
+Epoch 00021 | Time(s) 67.2033 | 
+TrainLoss 0.0431 | TrainAcc 0.9905 | TrainPrecision 0.9363 | TrainRecall 0.6399 | TrainMacroF1 0.7102
+ValLoss 0.2013   | ValAcc 0.9885   | ValPrecision 0.7606    | ValRecall 0.6327   | ValMacroF1 0.6752
+ETputs(KTEPS) 62.74
+
+| Apr 02 02:13:28 |
+Epoch 00022 | Time(s) 67.2800 | 
+TrainLoss 0.0449 | TrainAcc 0.9905 | TrainPrecision 0.9413 | TrainRecall 0.6396 | TrainMacroF1 0.7105
+ValLoss 0.1102   | ValAcc 0.9897   | ValPrecision 0.8177    | ValRecall 0.6459   | ValMacroF1 0.6991
+ETputs(KTEPS) 62.67
+
+| Apr 02 02:16:08 |
+Epoch 00023 | Time(s) 67.3308 | 
+TrainLoss 0.0448 | TrainAcc 0.9905 | TrainPrecision 0.9364 | TrainRecall 0.6383 | TrainMacroF1 0.7084
+ValLoss 1.6340   | ValAcc 0.9876   | ValPrecision 0.7210    | ValRecall 0.6087   | ValMacroF1 0.6451
+ETputs(KTEPS) 62.62
+
+| Apr 02 02:18:42 |
+Epoch 00024 | Time(s) 67.2982 | 
+TrainLoss 0.0435 | TrainAcc 0.9904 | TrainPrecision 0.9345 | TrainRecall 0.6388 | TrainMacroF1 0.7088
+ValLoss 0.2436   | ValAcc 0.9893   | ValPrecision 0.7964    | ValRecall 0.6375   | ValMacroF1 0.6871
+ETputs(KTEPS) 62.66
+
+| Apr 02 02:21:16 |
+Epoch 00025 | Time(s) 67.2442 | 
+TrainLoss 0.0438 | TrainAcc 0.9906 | TrainPrecision 0.9392 | TrainRecall 0.6419 | TrainMacroF1 0.7129
+ValLoss 0.2854   | ValAcc 0.9875   | ValPrecision 0.7227    | ValRecall 0.6379   | ValMacroF1 0.6699
+ETputs(KTEPS) 62.71
+
+| Apr 02 02:23:50 |
+Epoch 00026 | Time(s) 67.2030 | 
+TrainLoss 0.0433 | TrainAcc 0.9905 | TrainPrecision 0.9387 | TrainRecall 0.6376 | TrainMacroF1 0.7078
+ValLoss 0.4112   | ValAcc 0.9765   | ValPrecision 0.5955    | ValRecall 0.6550   | ValMacroF1 0.6176
+ETputs(KTEPS) 62.74
+
+| Apr 02 02:26:24 |
+Epoch 00027 | Time(s) 67.1639 | 
+TrainLoss 0.0431 | TrainAcc 0.9906 | TrainPrecision 0.9416 | TrainRecall 0.6417 | TrainMacroF1 0.7129
+ValLoss 0.1730   | ValAcc 0.9901   | ValPrecision 0.8630    | ValRecall 0.6278   | ValMacroF1 0.6878
+ETputs(KTEPS) 62.78
+
+| Apr 02 02:28:58 |
+Epoch 00028 | Time(s) 67.1239 | 
+TrainLoss 0.0450 | TrainAcc 0.9905 | TrainPrecision 0.9387 | TrainRecall 0.6396 | TrainMacroF1 0.7102
+ValLoss 0.2212   | ValAcc 0.9861   | ValPrecision 0.6859    | ValRecall 0.6367   | ValMacroF1 0.6574
+ETputs(KTEPS) 62.82
+
+| Apr 02 02:31:34 |
+Epoch 00029 | Time(s) 67.0977 | 
+TrainLoss 0.0435 | TrainAcc 0.9905 | TrainPrecision 0.9403 | TrainRecall 0.6400 | TrainMacroF1 0.7108
+ValLoss 0.1608   | ValAcc 0.9880   | ValPrecision 0.7389    | ValRecall 0.6199   | ValMacroF1 0.6590
+ETputs(KTEPS) 62.84
+
+| Apr 02 02:34:09 |
+Epoch 00030 | Time(s) 67.0863 | 
+TrainLoss 0.0432 | TrainAcc 0.9905 | TrainPrecision 0.9400 | TrainRecall 0.6401 | TrainMacroF1 0.7110
+ValLoss 0.2549   | ValAcc 0.9842   | ValPrecision 0.6559    | ValRecall 0.6451   | ValMacroF1 0.6503
+ETputs(KTEPS) 62.85
+
+| Apr 02 02:36:51 |
+Epoch 00031 | Time(s) 67.1786 | 
+TrainLoss 0.0424 | TrainAcc 0.9905 | TrainPrecision 0.9373 | TrainRecall 0.6406 | TrainMacroF1 0.7112
+ValLoss 0.9971   | ValAcc 0.9666   | ValPrecision 0.5638    | ValRecall 0.6568   | ValMacroF1 0.5884
+ETputs(KTEPS) 62.77
+
+| Apr 02 02:39:34 |
+Epoch 00032 | Time(s) 67.3280 | 
+TrainLoss 0.0428 | TrainAcc 0.9905 | TrainPrecision 0.9371 | TrainRecall 0.6419 | TrainMacroF1 0.7127
+ValLoss 0.6225   | ValAcc 0.9901   | ValPrecision 0.9030    | ValRecall 0.6047   | ValMacroF1 0.6645
+ETputs(KTEPS) 62.63
+
+| Apr 02 02:42:23 |
+Epoch 00033 | Time(s) 67.5375 | 
+TrainLoss 0.0424 | TrainAcc 0.9906 | TrainPrecision 0.9424 | TrainRecall 0.6440 | TrainMacroF1 0.7157
+ValLoss 0.2023   | ValAcc 0.9864   | ValPrecision 0.6925    | ValRecall 0.6341   | ValMacroF1 0.6578
+ETputs(KTEPS) 62.43
+
+| Apr 02 02:45:02 |
+Epoch 00034 | Time(s) 67.5491 | 
+TrainLoss 0.0421 | TrainAcc 0.9906 | TrainPrecision 0.9407 | TrainRecall 0.6432 | TrainMacroF1 0.7146
+ValLoss 0.1232   | ValAcc 0.9891   | ValPrecision 0.7820    | ValRecall 0.6496   | ValMacroF1 0.6949
+ETputs(KTEPS) 62.42
+
+| Apr 02 02:47:40 |
+Epoch 00035 | Time(s) 67.6293 | 
+TrainLoss 0.0431 | TrainAcc 0.9906 | TrainPrecision 0.9381 | TrainRecall 0.6436 | TrainMacroF1 0.7147
+ValLoss 0.1727   | ValAcc 0.9877   | ValPrecision 0.7317    | ValRecall 0.6550   | ValMacroF1 0.6855
+ETputs(KTEPS) 62.35
+
+| Apr 02 02:50:12 |
+Epoch 00036 | Time(s) 67.5409 | 
+TrainLoss 0.0435 | TrainAcc 0.9906 | TrainPrecision 0.9419 | TrainRecall 0.6425 | TrainMacroF1 0.7139
+ValLoss 0.1780   | ValAcc 0.9895   | ValPrecision 0.8072    | ValRecall 0.6413   | ValMacroF1 0.6927
+ETputs(KTEPS) 62.43
+
+| Apr 02 02:52:44 |
+Epoch 00037 | Time(s) 67.4530 | 
+TrainLoss 0.0425 | TrainAcc 0.9905 | TrainPrecision 0.9393 | TrainRecall 0.6413 | TrainMacroF1 0.7122
+ValLoss 0.1389   | ValAcc 0.9892   | ValPrecision 0.7941    | ValRecall 0.6379   | ValMacroF1 0.6870
+ETputs(KTEPS) 62.51
+
+| Apr 02 02:55:16 |
+Epoch 00038 | Time(s) 67.3951 | 
+TrainLoss 0.0426 | TrainAcc 0.9906 | TrainPrecision 0.9400 | TrainRecall 0.6441 | TrainMacroF1 0.7156
+ValLoss 0.4338   | ValAcc 0.9765   | ValPrecision 0.5988    | ValRecall 0.6639   | ValMacroF1 0.6227
+ETputs(KTEPS) 62.57
+
+| Apr 02 02:57:49 |
+Epoch 00039 | Time(s) 67.3459 | 
+TrainLoss 0.0427 | TrainAcc 0.9905 | TrainPrecision 0.9365 | TrainRecall 0.6405 | TrainMacroF1 0.7110
+ValLoss 0.2129   | ValAcc 0.9856   | ValPrecision 0.6799    | ValRecall 0.6507   | ValMacroF1 0.6639
+ETputs(KTEPS) 62.61
+
+| Apr 02 03:00:22 |
+Epoch 00040 | Time(s) 67.2845 | 
+TrainLoss 0.0428 | TrainAcc 0.9906 | TrainPrecision 0.9408 | TrainRecall 0.6413 | TrainMacroF1 0.7124
+ValLoss 0.2292   | ValAcc 0.9901   | ValPrecision 0.8593    | ValRecall 0.6286   | ValMacroF1 0.6882
+ETputs(KTEPS) 62.67
+
+| Apr 02 03:02:54 |
+Epoch 00041 | Time(s) 67.2291 | 
+TrainLoss 0.0425 | TrainAcc 0.9906 | TrainPrecision 0.9410 | TrainRecall 0.6430 | TrainMacroF1 0.7144
+ValLoss 0.2335   | ValAcc 0.9904   | ValPrecision 0.8890    | ValRecall 0.6312   | ValMacroF1 0.6949
+ETputs(KTEPS) 62.72
+
+| Apr 02 03:05:26 |
+Epoch 00042 | Time(s) 67.1708 | 
+TrainLoss 0.0429 | TrainAcc 0.9907 | TrainPrecision 0.9426 | TrainRecall 0.6455 | TrainMacroF1 0.7175
+ValLoss 0.1173   | ValAcc 0.9862   | ValPrecision 0.6930    | ValRecall 0.6494   | ValMacroF1 0.6683
+ETputs(KTEPS) 62.77
+
+| Apr 02 03:07:56 |
+Epoch 00043 | Time(s) 67.0904 | 
+TrainLoss 0.0427 | TrainAcc 0.9906 | TrainPrecision 0.9418 | TrainRecall 0.6432 | TrainMacroF1 0.7147
+ValLoss 0.1905   | ValAcc 0.9901   | ValPrecision 0.8408    | ValRecall 0.6444   | ValMacroF1 0.7019
+ETputs(KTEPS) 62.85
+
+| Apr 02 03:10:28 |
+Epoch 00044 | Time(s) 67.0468 | 
+TrainLoss 0.0435 | TrainAcc 0.9906 | TrainPrecision 0.9413 | TrainRecall 0.6428 | TrainMacroF1 0.7142
+ValLoss 0.1727   | ValAcc 0.9894   | ValPrecision 0.8043    | ValRecall 0.6339   | ValMacroF1 0.6851
+ETputs(KTEPS) 62.89
+
+| Apr 02 03:13:00 |
+Epoch 00045 | Time(s) 67.0044 | 
+TrainLoss 0.0424 | TrainAcc 0.9906 | TrainPrecision 0.9386 | TrainRecall 0.6432 | TrainMacroF1 0.7144
+ValLoss 0.1333   | ValAcc 0.9887   | ValPrecision 0.7652    | ValRecall 0.6470   | ValMacroF1 0.6886
+ETputs(KTEPS) 62.93
+
+| Apr 02 03:15:31 |
+Epoch 00046 | Time(s) 66.9490 | 
+TrainLoss 0.0446 | TrainAcc 0.9906 | TrainPrecision 0.9403 | TrainRecall 0.6449 | TrainMacroF1 0.7165
+ValLoss 0.1968   | ValAcc 0.9884   | ValPrecision 0.7535    | ValRecall 0.6334   | ValMacroF1 0.6742
+ETputs(KTEPS) 62.98
+
+| Apr 02 03:18:02 |
+Epoch 00047 | Time(s) 66.8968 | 
+TrainLoss 0.0422 | TrainAcc 0.9906 | TrainPrecision 0.9387 | TrainRecall 0.6444 | TrainMacroF1 0.7157
+ValLoss 0.2589   | ValAcc 0.9868   | ValPrecision 0.7055    | ValRecall 0.6488   | ValMacroF1 0.6725
+ETputs(KTEPS) 63.03
+
+| Apr 02 03:20:34 |
+Epoch 00048 | Time(s) 66.8511 | 
+TrainLoss 0.0422 | TrainAcc 0.9907 | TrainPrecision 0.9497 | TrainRecall 0.6452 | TrainMacroF1 0.7179
+ValLoss 0.1122   | ValAcc 0.9889   | ValPrecision 0.7776    | ValRecall 0.6439   | ValMacroF1 0.6889
+ETputs(KTEPS) 63.07
+
+| Apr 02 03:23:06 |
+Epoch 00049 | Time(s) 66.8177 | 
+TrainLoss 0.0431 | TrainAcc 0.9907 | TrainPrecision 0.9426 | TrainRecall 0.6464 | TrainMacroF1 0.7185
+ValLoss 0.2441   | ValAcc 0.9877   | ValPrecision 0.7269    | ValRecall 0.6323   | ValMacroF1 0.6667
+ETputs(KTEPS) 63.11
+
+| Apr 02 03:25:37 |
+Epoch 00050 | Time(s) 66.7795 | 
+TrainLoss 0.0422 | TrainAcc 0.9907 | TrainPrecision 0.9428 | TrainRecall 0.6452 | TrainMacroF1 0.7171
+ValLoss 0.2867   | ValAcc 0.9856   | ValPrecision 0.6804    | ValRecall 0.6479   | ValMacroF1 0.6624
+ETputs(KTEPS) 63.14
+
+| Apr 02 03:28:09 |
+Epoch 00051 | Time(s) 66.7508 | 
+TrainLoss 0.0451 | TrainAcc 0.9906 | TrainPrecision 0.9379 | TrainRecall 0.6450 | TrainMacroF1 0.7163
+ValLoss 0.1887   | ValAcc 0.9875   | ValPrecision 0.7231    | ValRecall 0.6342   | ValMacroF1 0.6672
+ETputs(KTEPS) 63.17
+
+| Apr 02 03:30:41 |
+Epoch 00052 | Time(s) 66.7098 | 
+TrainLoss 0.0425 | TrainAcc 0.9906 | TrainPrecision 0.9418 | TrainRecall 0.6441 | TrainMacroF1 0.7158
+ValLoss 0.1683   | ValAcc 0.9885   | ValPrecision 0.7568    | ValRecall 0.6501   | ValMacroF1 0.6890
+ETputs(KTEPS) 63.21
+
+| Apr 02 03:33:12 |
+Epoch 00053 | Time(s) 66.6790 | 
+TrainLoss 0.0427 | TrainAcc 0.9906 | TrainPrecision 0.9372 | TrainRecall 0.6451 | TrainMacroF1 0.7164
+ValLoss 0.2507   | ValAcc 0.9853   | ValPrecision 0.6660    | ValRecall 0.6274   | ValMacroF1 0.6441
+ETputs(KTEPS) 63.24
+
+| Apr 02 03:35:44 |
+Epoch 00054 | Time(s) 66.6483 | 
+TrainLoss 0.0421 | TrainAcc 0.9906 | TrainPrecision 0.9370 | TrainRecall 0.6454 | TrainMacroF1 0.7166
+ValLoss 0.2423   | ValAcc 0.9882   | ValPrecision 0.7472    | ValRecall 0.6175   | ValMacroF1 0.6586
+ETputs(KTEPS) 63.27
+
+| Apr 02 03:38:16 |
+Epoch 00055 | Time(s) 66.6110 | 
+TrainLoss 0.0421 | TrainAcc 0.9907 | TrainPrecision 0.9420 | TrainRecall 0.6459 | TrainMacroF1 0.7179
+ValLoss 0.1651   | ValAcc 0.9884   | ValPrecision 0.7553    | ValRecall 0.6509   | ValMacroF1 0.6892
+ETputs(KTEPS) 63.30
+
+| Apr 02 03:40:47 |
+Epoch 00056 | Time(s) 66.5703 | 
+TrainLoss 0.0419 | TrainAcc 0.9906 | TrainPrecision 0.9424 | TrainRecall 0.6440 | TrainMacroF1 0.7157
+ValLoss 0.1331   | ValAcc 0.9887   | ValPrecision 0.7648    | ValRecall 0.6559   | ValMacroF1 0.6958
+ETputs(KTEPS) 63.34
+
+| Apr 02 03:43:18 |
+Epoch 00057 | Time(s) 66.5331 | 
+TrainLoss 0.0421 | TrainAcc 0.9907 | TrainPrecision 0.9434 | TrainRecall 0.6448 | TrainMacroF1 0.7167
+ValLoss 0.4113   | ValAcc 0.9889   | ValPrecision 0.7822    | ValRecall 0.6207   | ValMacroF1 0.6682
+ETputs(KTEPS) 63.38
+
+| Apr 02 03:45:49 |
+Epoch 00058 | Time(s) 66.4957 | 
+TrainLoss 0.0417 | TrainAcc 0.9906 | TrainPrecision 0.9430 | TrainRecall 0.6426 | TrainMacroF1 0.7141
+ValLoss 0.1977   | ValAcc 0.9866   | ValPrecision 0.6990    | ValRecall 0.6451   | ValMacroF1 0.6676
+ETputs(KTEPS) 63.41
+
+| Apr 02 03:48:20 |
+Epoch 00059 | Time(s) 66.4615 | 
+TrainLoss 0.0416 | TrainAcc 0.9907 | TrainPrecision 0.9443 | TrainRecall 0.6475 | TrainMacroF1 0.7199
+ValLoss 0.3017   | ValAcc 0.9809   | ValPrecision 0.6270    | ValRecall 0.6637   | ValMacroF1 0.6429
+ETputs(KTEPS) 63.44
+
+| Apr 02 03:50:51 |
+Epoch 00060 | Time(s) 66.4269 | 
+TrainLoss 0.0426 | TrainAcc 0.9906 | TrainPrecision 0.9439 | TrainRecall 0.6440 | TrainMacroF1 0.7159
+ValLoss 0.2007   | ValAcc 0.9872   | ValPrecision 0.7188    | ValRecall 0.6620   | ValMacroF1 0.6860
+ETputs(KTEPS) 63.48
+
+| Apr 02 03:53:22 |
+Epoch 00061 | Time(s) 66.3984 | 
+TrainLoss 0.0416 | TrainAcc 0.9907 | TrainPrecision 0.9438 | TrainRecall 0.6481 | TrainMacroF1 0.7206
+ValLoss 0.1654   | ValAcc 0.9884   | ValPrecision 0.7562    | ValRecall 0.6355   | ValMacroF1 0.6767
+ETputs(KTEPS) 63.50
+
+| Apr 02 03:55:54 |
+Epoch 00062 | Time(s) 66.3702 | 
+TrainLoss 0.0429 | TrainAcc 0.9907 | TrainPrecision 0.9420 | TrainRecall 0.6458 | TrainMacroF1 0.7177
+ValLoss 0.1686   | ValAcc 0.9902   | ValPrecision 0.8478    | ValRecall 0.6465   | ValMacroF1 0.7052
+ETputs(KTEPS) 63.53
+
+| Apr 02 03:58:25 |
+Epoch 00063 | Time(s) 66.3411 | 
+TrainLoss 0.0413 | TrainAcc 0.9907 | TrainPrecision 0.9417 | TrainRecall 0.6459 | TrainMacroF1 0.7178
+ValLoss 0.1151   | ValAcc 0.9899   | ValPrecision 0.8273    | ValRecall 0.6484   | ValMacroF1 0.7033
+ETputs(KTEPS) 63.56
+
+| Apr 02 04:00:56 |
+Epoch 00064 | Time(s) 66.3141 | 
+TrainLoss 0.0418 | TrainAcc 0.9907 | TrainPrecision 0.9425 | TrainRecall 0.6462 | TrainMacroF1 0.7182
+ValLoss 0.1353   | ValAcc 0.9906   | ValPrecision 0.9028    | ValRecall 0.6346   | ValMacroF1 0.7004
+ETputs(KTEPS) 63.59
+
+| Apr 02 04:03:27 |
+Epoch 00065 | Time(s) 66.2840 | 
+TrainLoss 0.0437 | TrainAcc 0.9907 | TrainPrecision 0.9437 | TrainRecall 0.6445 | TrainMacroF1 0.7164
+ValLoss 0.2286   | ValAcc 0.9868   | ValPrecision 0.6989    | ValRecall 0.6205   | ValMacroF1 0.6497
+ETputs(KTEPS) 63.61
+
+| Apr 02 04:05:58 |
+Epoch 00066 | Time(s) 66.2569 | 
+TrainLoss 0.0418 | TrainAcc 0.9906 | TrainPrecision 0.9369 | TrainRecall 0.6444 | TrainMacroF1 0.7155
+ValLoss 0.1565   | ValAcc 0.9899   | ValPrecision 0.8330    | ValRecall 0.6419   | ValMacroF1 0.6980
+ETputs(KTEPS) 63.64
+
+| Apr 02 04:08:29 |
+Epoch 00067 | Time(s) 66.2302 | 
+TrainLoss 0.0412 | TrainAcc 0.9906 | TrainPrecision 0.9383 | TrainRecall 0.6442 | TrainMacroF1 0.7155
+ValLoss 0.2461   | ValAcc 0.9837   | ValPrecision 0.6562    | ValRecall 0.6627   | ValMacroF1 0.6594
+ETputs(KTEPS) 63.67
+
+| Apr 02 04:11:00 |
+Epoch 00068 | Time(s) 66.2070 | 
+TrainLoss 0.0441 | TrainAcc 0.9907 | TrainPrecision 0.9422 | TrainRecall 0.6453 | TrainMacroF1 0.7171
+ValLoss 0.2269   | ValAcc 0.9879   | ValPrecision 0.7357    | ValRecall 0.6490   | ValMacroF1 0.6822
+ETputs(KTEPS) 63.69
+
+| Apr 02 04:13:31 |
+Epoch 00069 | Time(s) 66.1814 | 
+TrainLoss 0.0416 | TrainAcc 0.9907 | TrainPrecision 0.9457 | TrainRecall 0.6462 | TrainMacroF1 0.7186
+ValLoss 0.3674   | ValAcc 0.9852   | ValPrecision 0.6672    | ValRecall 0.6359   | ValMacroF1 0.6499
+ETputs(KTEPS) 63.71
+
+| Apr 02 04:16:03 |
+Epoch 00070 | Time(s) 66.1665 | 
+TrainLoss 0.0420 | TrainAcc 0.9907 | TrainPrecision 0.9412 | TrainRecall 0.6464 | TrainMacroF1 0.7183
+ValLoss 0.4084   | ValAcc 0.9772   | ValPrecision 0.5919    | ValRecall 0.6379   | ValMacroF1 0.6099
+ETputs(KTEPS) 63.73
+
+| Apr 02 04:18:35 |
+Epoch 00071 | Time(s) 66.1513 | 
+TrainLoss 0.0410 | TrainAcc 0.9907 | TrainPrecision 0.9406 | TrainRecall 0.6468 | TrainMacroF1 0.7187
+ValLoss 0.1537   | ValAcc 0.9890   | ValPrecision 0.7777    | ValRecall 0.6471   | ValMacroF1 0.6917
+ETputs(KTEPS) 63.74
+
+| Apr 02 04:21:06 |
+Epoch 00072 | Time(s) 66.1308 | 
+TrainLoss 0.0420 | TrainAcc 0.9907 | TrainPrecision 0.9419 | TrainRecall 0.6457 | TrainMacroF1 0.7176
+ValLoss 0.1571   | ValAcc 0.9892   | ValPrecision 0.7881    | ValRecall 0.6460   | ValMacroF1 0.6931
+ETputs(KTEPS) 63.76
+
+| Apr 02 04:23:37 |
+Epoch 00073 | Time(s) 66.1174 | 
+TrainLoss 0.0406 | TrainAcc 0.9908 | TrainPrecision 0.9475 | TrainRecall 0.6475 | TrainMacroF1 0.7203
+ValLoss 0.6560   | ValAcc 0.9827   | ValPrecision 0.6413    | ValRecall 0.6557   | ValMacroF1 0.6481
+ETputs(KTEPS) 63.77
+
+| Apr 02 04:26:08 |
+Epoch 00074 | Time(s) 66.0936 | 
+TrainLoss 0.0421 | TrainAcc 0.9907 | TrainPrecision 0.9457 | TrainRecall 0.6474 | TrainMacroF1 0.7199
+ValLoss 0.2199   | ValAcc 0.9848   | ValPrecision 0.6666    | ValRecall 0.6519   | ValMacroF1 0.6589
+ETputs(KTEPS) 63.80
+
+| Apr 02 04:28:40 |
+Epoch 00075 | Time(s) 66.0756 | 
+TrainLoss 0.0417 | TrainAcc 0.9907 | TrainPrecision 0.9461 | TrainRecall 0.6465 | TrainMacroF1 0.7190
+ValLoss 0.1536   | ValAcc 0.9891   | ValPrecision 0.7890    | ValRecall 0.6362   | ValMacroF1 0.6844
+ETputs(KTEPS) 63.81
+
+| Apr 02 04:31:11 |
+Epoch 00076 | Time(s) 66.0589 | 
+TrainLoss 0.0412 | TrainAcc 0.9908 | TrainPrecision 0.9489 | TrainRecall 0.6474 | TrainMacroF1 0.7203
+ValLoss 0.1889   | ValAcc 0.9898   | ValPrecision 0.8182    | ValRecall 0.6516   | ValMacroF1 0.7046
+ETputs(KTEPS) 63.83
+
+| Apr 02 04:33:42 |
+Epoch 00077 | Time(s) 66.0299 | 
+TrainLoss 0.0412 | TrainAcc 0.9908 | TrainPrecision 0.9438 | TrainRecall 0.6493 | TrainMacroF1 0.7219
+ValLoss 0.2249   | ValAcc 0.9883   | ValPrecision 0.7515    | ValRecall 0.6221   | ValMacroF1 0.6636
+ETputs(KTEPS) 63.86
+
+| Apr 02 04:36:12 |
+Epoch 00078 | Time(s) 65.9985 | 
+TrainLoss 0.0419 | TrainAcc 0.9908 | TrainPrecision 0.9476 | TrainRecall 0.6478 | TrainMacroF1 0.7206
+ValLoss 0.0795   | ValAcc 0.9881   | ValPrecision 0.7447    | ValRecall 0.6588   | ValMacroF1 0.6923
+ETputs(KTEPS) 63.89
+
+| Apr 02 04:38:42 |
+Epoch 00079 | Time(s) 65.9656 | 
+TrainLoss 0.0413 | TrainAcc 0.9907 | TrainPrecision 0.9443 | TrainRecall 0.6474 | TrainMacroF1 0.7198
+ValLoss 0.2926   | ValAcc 0.9819   | ValPrecision 0.6404    | ValRecall 0.6751   | ValMacroF1 0.6558
+ETputs(KTEPS) 63.92
+
+| Apr 02 04:41:12 |
+Epoch 00080 | Time(s) 65.9371 | 
+TrainLoss 0.0417 | TrainAcc 0.9907 | TrainPrecision 0.9411 | TrainRecall 0.6472 | TrainMacroF1 0.7192
+ValLoss 0.1535   | ValAcc 0.9877   | ValPrecision 0.7324    | ValRecall 0.6615   | ValMacroF1 0.6903
+ETputs(KTEPS) 63.95
+
+| Apr 02 04:43:42 |
+Epoch 00081 | Time(s) 65.9071 | 
+TrainLoss 0.0412 | TrainAcc 0.9907 | TrainPrecision 0.9410 | TrainRecall 0.6490 | TrainMacroF1 0.7212
+ValLoss 0.2105   | ValAcc 0.9847   | ValPrecision 0.6679    | ValRecall 0.6579   | ValMacroF1 0.6627
+ETputs(KTEPS) 63.98
+
+| Apr 02 04:46:13 |
+Epoch 00082 | Time(s) 65.8808 | 
+TrainLoss 0.0412 | TrainAcc 0.9907 | TrainPrecision 0.9421 | TrainRecall 0.6493 | TrainMacroF1 0.7217
+ValLoss 1.0541   | ValAcc 0.9642   | ValPrecision 0.5662    | ValRecall 0.6824   | ValMacroF1 0.5940
+ETputs(KTEPS) 64.00
+
+| Apr 02 04:48:43 |
+Epoch 00083 | Time(s) 65.8519 | 
+TrainLoss 0.0419 | TrainAcc 0.9908 | TrainPrecision 0.9482 | TrainRecall 0.6498 | TrainMacroF1 0.7230
+ValLoss 0.1628   | ValAcc 0.9824   | ValPrecision 0.6403    | ValRecall 0.6624   | ValMacroF1 0.6505
+ETputs(KTEPS) 64.03
+
+| Apr 02 04:51:13 |
+Epoch 00084 | Time(s) 65.8261 | 
+TrainLoss 0.0430 | TrainAcc 0.9908 | TrainPrecision 0.9472 | TrainRecall 0.6488 | TrainMacroF1 0.7217
+ValLoss 0.7928   | ValAcc 0.9675   | ValPrecision 0.5766    | ValRecall 0.6938   | ValMacroF1 0.6073
+ETputs(KTEPS) 64.06
+
+| Apr 02 04:53:44 |
+Epoch 00085 | Time(s) 65.8041 | 
+TrainLoss 0.0414 | TrainAcc 0.9907 | TrainPrecision 0.9478 | TrainRecall 0.6472 | TrainMacroF1 0.7200
+ValLoss 0.7933   | ValAcc 0.9684   | ValPrecision 0.5716    | ValRecall 0.6683   | ValMacroF1 0.5984
+ETputs(KTEPS) 64.08
+
+| Apr 02 04:56:14 |
+Epoch 00086 | Time(s) 65.7841 | 
+TrainLoss 0.0423 | TrainAcc 0.9907 | TrainPrecision 0.9402 | TrainRecall 0.6495 | TrainMacroF1 0.7217
+ValLoss 0.3505   | ValAcc 0.9784   | ValPrecision 0.6050    | ValRecall 0.6527   | ValMacroF1 0.6241
+ETputs(KTEPS) 64.10
+
+| Apr 02 04:58:45 |
+Epoch 00087 | Time(s) 65.7702 | 
+TrainLoss 0.0408 | TrainAcc 0.9907 | TrainPrecision 0.9446 | TrainRecall 0.6472 | TrainMacroF1 0.7196
+ValLoss 0.5997   | ValAcc 0.9893   | ValPrecision 0.8001    | ValRecall 0.6331   | ValMacroF1 0.6835
+ETputs(KTEPS) 64.11
+
+| Apr 02 05:01:17 |
+Epoch 00088 | Time(s) 65.7592 | 
+TrainLoss 0.0426 | TrainAcc 0.9908 | TrainPrecision 0.9445 | TrainRecall 0.6492 | TrainMacroF1 0.7218
+ValLoss 0.2602   | ValAcc 0.9793   | ValPrecision 0.6115    | ValRecall 0.6552   | ValMacroF1 0.6295
+ETputs(KTEPS) 64.12
+
+| Apr 02 05:03:48 |
+Epoch 00089 | Time(s) 65.7459 | 
+TrainLoss 0.0411 | TrainAcc 0.9907 | TrainPrecision 0.9424 | TrainRecall 0.6481 | TrainMacroF1 0.7204
+ValLoss 1.3968   | ValAcc 0.9597   | ValPrecision 0.5594    | ValRecall 0.6862   | ValMacroF1 0.5859
+ETputs(KTEPS) 64.13
+
+| Apr 02 05:06:19 |
+Epoch 00090 | Time(s) 65.7303 | 
+TrainLoss 0.0420 | TrainAcc 0.9907 | TrainPrecision 0.9407 | TrainRecall 0.6472 | TrainMacroF1 0.7192
+ValLoss 0.5329   | ValAcc 0.9765   | ValPrecision 0.5958    | ValRecall 0.6566   | ValMacroF1 0.6183
+ETputs(KTEPS) 64.15
+
+| Apr 02 05:08:51 |
+Epoch 00091 | Time(s) 65.7233 | 
+TrainLoss 0.0414 | TrainAcc 0.9907 | TrainPrecision 0.9413 | TrainRecall 0.6490 | TrainMacroF1 0.7213
+ValLoss 0.4686   | ValAcc 0.9724   | ValPrecision 0.5824    | ValRecall 0.6659   | ValMacroF1 0.6088
+ETputs(KTEPS) 64.16
+
+| Apr 02 05:11:23 |
+Epoch 00092 | Time(s) 65.7084 | 
+TrainLoss 0.0423 | TrainAcc 0.9907 | TrainPrecision 0.9401 | TrainRecall 0.6494 | TrainMacroF1 0.7216
+ValLoss 0.1725   | ValAcc 0.9829   | ValPrecision 0.6331    | ValRecall 0.6315   | ValMacroF1 0.6323
+ETputs(KTEPS) 64.17
+
+| Apr 02 05:13:54 |
+Epoch 00093 | Time(s) 65.6964 | 
+TrainLoss 0.0424 | TrainAcc 0.9907 | TrainPrecision 0.9422 | TrainRecall 0.6476 | TrainMacroF1 0.7198
+ValLoss 0.1530   | ValAcc 0.9829   | ValPrecision 0.6305    | ValRecall 0.6270   | ValMacroF1 0.6287
+ETputs(KTEPS) 64.18
+
+| Apr 02 05:16:26 |
+Epoch 00094 | Time(s) 65.6836 | 
+TrainLoss 0.0412 | TrainAcc 0.9908 | TrainPrecision 0.9475 | TrainRecall 0.6488 | TrainMacroF1 0.7218
+ValLoss 0.2005   | ValAcc 0.9780   | ValPrecision 0.6045    | ValRecall 0.6574   | ValMacroF1 0.6252
+ETputs(KTEPS) 64.20
+
+| Apr 02 05:18:58 |
+Epoch 00095 | Time(s) 65.6801 | 
+TrainLoss 0.0409 | TrainAcc 0.9909 | TrainPrecision 0.9463 | TrainRecall 0.6538 | TrainMacroF1 0.7273
+ValLoss 0.1858   | ValAcc 0.9784   | ValPrecision 0.6072    | ValRecall 0.6584   | ValMacroF1 0.6275
+ETputs(KTEPS) 64.20
+
+| Apr 02 05:21:29 |
+Epoch 00096 | Time(s) 65.6718 | 
+TrainLoss 0.0411 | TrainAcc 0.9908 | TrainPrecision 0.9452 | TrainRecall 0.6504 | TrainMacroF1 0.7234
+ValLoss 0.1856   | ValAcc 0.9907   | ValPrecision 0.9367    | ValRecall 0.6229   | ValMacroF1 0.6901
+ETputs(KTEPS) 64.21
+
+| Apr 02 05:24:01 |
+Epoch 00097 | Time(s) 65.6633 | 
+TrainLoss 0.0434 | TrainAcc 0.9908 | TrainPrecision 0.9422 | TrainRecall 0.6504 | TrainMacroF1 0.7230
+ValLoss 0.2205   | ValAcc 0.9735   | ValPrecision 0.5851    | ValRecall 0.6620   | ValMacroF1 0.6105
+ETputs(KTEPS) 64.22
+
+| Apr 02 05:26:32 |
+Epoch 00098 | Time(s) 65.6471 | 
+TrainLoss 0.0428 | TrainAcc 0.9908 | TrainPrecision 0.9431 | TrainRecall 0.6500 | TrainMacroF1 0.7227
+ValLoss 0.3330   | ValAcc 0.9696   | ValPrecision 0.5773    | ValRecall 0.6770   | ValMacroF1 0.6057
+ETputs(KTEPS) 64.23
+
+| Apr 02 05:29:02 |
+Epoch 00099 | Time(s) 65.6316 | 
+TrainLoss 0.0409 | TrainAcc 0.9908 | TrainPrecision 0.9410 | TrainRecall 0.6509 | TrainMacroF1 0.7234
+ValLoss 0.8922   | ValAcc 0.9650   | ValPrecision 0.5660    | ValRecall 0.6751   | ValMacroF1 0.5930
+ETputs(KTEPS) 64.25
+
+| Apr 02 05:29:02 |
+Best val result: ValAcc 0.9907   | ValPrecision 0.9367    | ValRecall 0.6229   | ValMacroF1 0.6901
+
+| Apr 02 05:29:03 |
+              precision    recall  f1-score   support
+
+         0.0   0.991050  0.999607  0.995310    101799
+         1.0   0.882353  0.246103  0.384862      1219
+
+    accuracy                       0.990691    103018
+   macro avg   0.936701  0.622855  0.690086    103018
+weighted avg   0.989763  0.990691  0.988087    103018
+
+| Apr 02 05:29:03 |
+[[101759     40]
+ [   919    300]]
+| Apr 02 05:30:29 |
+Test set: TestAcc 0.9905   | TestPrecision 0.9456    | TestRecall 0.6257   | TestMacroF1 0.6944
+
+| Apr 02 05:30:29 |
+              precision    recall  f1-score   support
+
+         0.0   0.990854  0.999656  0.995236    101763
+         1.0   0.900285  0.251793  0.393524      1255
+
+    accuracy                       0.990545    103018
+   macro avg   0.945569  0.625724  0.694380    103018
+weighted avg   0.989751  0.990545  0.987905    103018
+
+| Apr 02 05:30:29 |
+[[101728     35]
+ [   939    316]]

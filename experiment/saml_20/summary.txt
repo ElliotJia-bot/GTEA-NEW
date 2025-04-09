@@ -1,0 +1,32 @@
+Model: GCN - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GraphSAGE
+----------------------------------------
+Best val result: ValAcc 0.9992   | ValPrecision 0.9640    | ValRecall 0.8848   | ValMacroF1 0.9207
+
+Model: GAT
+----------------------------------------
+Best val result: ValAcc 0.9991   | ValPrecision 0.9812    | ValRecall 0.8454   | ValMacroF1 0.9021
+
+Model: ECConv
+----------------------------------------
+Best val result: ValAcc 0.9989   | ValPrecision 0.9782    | ValRecall 0.7960   | ValMacroF1 0.8656
+
+Model: GTEA-ST
+----------------------------------------
+Best val result: ValAcc 0.9992   | ValPrecision 0.9777    | ValRecall 0.8585   | ValMacroF1 0.9096
+
+Model: EGNN
+----------------------------------------
+Best val result: ValAcc 0.9975   | ValPrecision 0.8238    | ValRecall 0.5427   | ValMacroF1 0.5749
+
+Model: GAT+T
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 1.0000   | ValMacroF1 1.0000
+
+Model: TGAT
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 1.0000   | ValMacroF1 1.0000
+

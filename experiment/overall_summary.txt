@@ -1,0 +1,17 @@
+Overall Model Performance Summary
+========================================
+
+Dataset: saml
+========================================
+Model Performance Summary for saml
+========================================
+
+Model: GTEA-LSTM+T2V
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 1.0000   | ValMacroF1 1.0000
+
+Model: GTEA-Trans - Failed
+----------------------------------------
+Error occurred during execution
+
+

@@ -1,0 +1,7 @@
+Model Performance Summary for saml
+========================================
+
+Model: GTEA-Trans+T2V
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 1.0000   | ValMacroF1 1.0000
+

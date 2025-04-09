@@ -1,0 +1,45 @@
+| Mar 28 02:18:41 |
+Namespace(K=5, batch_size=32, bidirectional=False, data_dir='data/dynamic_eth', dropout=None, epochs=100, gpu=0, infer_gpu=True, log_dir='experiment/dynamic_eth', log_name='GTEA-LSTM', lr=0.001, max_event=20, model='GTEA-LSTM', node_hidden_dim=64, num_cpu=2, num_heads=4, num_layers=2, num_lstm_layers=1, num_neighbors=5, patience=100, remove_node_features=False, self_loop=False, test_batch_size=1000, time_hidden_dim=32, use_K=None, weight_decay=0.0)
+| Mar 28 02:19:38 |
+----Data statistics------'
+      #Nodes 2180689
+      #Edges 9541922
+      #Node_feat 23
+      #Edge_feat 6
+      #Edge_timestep 20
+      #Classes 7
+      #Train samples 265
+      #Val samples 90
+      #Test samples 90
+| Mar 28 02:19:40 |
+Start training
+| Mar 28 02:29:14 |
+Epoch 00000 | Time(s) nan | 
+TrainLoss 1.6327 | TrainAcc 0.4792 | TrainPrecision 0.3993 | TrainRecall 0.2721 | TrainMacroF1 0.2806
+ValLoss 1.0954   | ValAcc 0.6222   | ValPrecision 0.5373    | ValRecall 0.3448   | ValMacroF1 0.3496
+ETputs(KTEPS) nan
+
+| Mar 28 02:38:49 |
+Epoch 00001 | Time(s) nan | 
+TrainLoss 0.9295 | TrainAcc 0.7509 | TrainPrecision 0.5155 | TrainRecall 0.3506 | TrainMacroF1 0.3784
+ValLoss 0.8599   | ValAcc 0.8333   | ValPrecision 0.6010    | ValRecall 0.4885   | ValMacroF1 0.4983
+ETputs(KTEPS) nan
+
+| Mar 28 02:48:24 |
+Epoch 00002 | Time(s) 0.5559 | 
+TrainLoss 0.7070 | TrainAcc 0.8264 | TrainPrecision 0.4918 | TrainRecall 0.4465 | TrainMacroF1 0.4464
+ValLoss 0.8812   | ValAcc 0.8222   | ValPrecision 0.5983    | ValRecall 0.4737   | ValMacroF1 0.4874
+ETputs(KTEPS) 17166.20
+
+| Mar 28 02:58:00 |
+Epoch 00003 | Time(s) 0.5590 | 
+TrainLoss 0.5718 | TrainAcc 0.8528 | TrainPrecision 0.6598 | TrainRecall 0.4866 | TrainMacroF1 0.5152
+ValLoss 0.8620   | ValAcc 0.8667   | ValPrecision 0.5961    | ValRecall 0.5654   | ValMacroF1 0.5713
+ETputs(KTEPS) 17068.23
+
+| Mar 28 03:07:35 |
+Epoch 00004 | Time(s) 0.5425 | 
+TrainLoss 0.5002 | TrainAcc 0.9094 | TrainPrecision 0.6789 | TrainRecall 0.5822 | TrainMacroF1 0.6086
+ValLoss 0.9568   | ValAcc 0.8667   | ValPrecision 0.6066    | ValRecall 0.5870   | ValMacroF1 0.5937
+ETputs(KTEPS) 17587.71
+

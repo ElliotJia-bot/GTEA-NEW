@@ -1,0 +1,43 @@
+Model Performance Summary for IBM_HI_S
+========================================
+
+Model: GTEA-LSTM+T2V with max_event 5
+----------------------------------------
+
+Model: GTEA-LSTM+T2V with max_event 10
+----------------------------------------
+
+Model: GTEA-Trans with max_event 5
+----------------------------------------
+
+Model: GTEA-Trans with max_event 10
+----------------------------------------
+
+Model: GTEA-Trans+T2V with max_event 5
+----------------------------------------
+
+Model: GTEA-Trans+T2V with max_event 10
+----------------------------------------
+
+Model: GTEA-LSTM with max_event 5
+----------------------------------------
+
+Model: GTEA-LSTM with max_event 10
+----------------------------------------
+
+Model: TGAT
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 0.9996   | ValMacroF1 0.9998
+
+Model: GTEA-LSTM+T2V
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 1.0000   | ValMacroF1 1.0000
+
+Model: GTEA-Trans
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 0.9996   | ValMacroF1 0.9998
+
+Model: GTEA-Trans+T2V
+----------------------------------------
+Best val result: ValAcc 1.0000   | ValPrecision 1.0000    | ValRecall 0.9996   | ValMacroF1 0.9998
+

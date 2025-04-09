@@ -1,0 +1,107 @@
+| Apr 02 17:04:26 |
+Namespace(K=5, batch_size=32, bidirectional=False, data_dir='./data/phish_eth', dropout=None, epochs=10, gpu=0, infer_gpu=True, log_dir='./experiment', log_name='GTEA-LSTM', lr=0.001, max_event=20, model='GTEA-LSTM', node_hidden_dim=64, num_cpu=2, num_heads=4, num_layers=2, num_lstm_layers=1, num_neighbors=10, patience=100, remove_node_features=False, self_loop=False, test_batch_size=1000, time_hidden_dim=32, use_K=None, weight_decay=0)
+| Apr 02 17:06:04 |
+----Data statistics------'
+      #Nodes 2973489
+      #Edges 13566502
+      #Node_feat 4
+      #Edge_feat 3
+      #Edge_timestep 20
+      #Classes 2
+      #Train samples 3699
+      #Val samples 1233
+      #Test samples 1233
+| Apr 02 17:06:06 |
+Start training
+| Apr 02 17:50:25 |
+Epoch 00000 | Time(s) nan | 
+TrainLoss 0.4417 | TrainAcc 0.8035 | TrainPrecision 0.6745 | TrainRecall 0.6252 | TrainMacroF1 0.6406
+ValLoss 0.2969   | ValAcc 0.8978   | ValPrecision 0.8405    | ValRecall 0.7893   | ValMacroF1 0.8112
+ETputs(KTEPS) nan
+
+| Apr 02 17:52:57 |
+Epoch 00001 | Time(s) nan | 
+TrainLoss 0.2795 | TrainAcc 0.8932 | TrainPrecision 0.8599 | TrainRecall 0.7798 | TrainMacroF1 0.8107
+ValLoss 0.2491   | ValAcc 0.9132   | ValPrecision 0.8455    | ValRecall 0.8685   | ValMacroF1 0.8563
+ETputs(KTEPS) nan
+
+| Apr 02 17:56:54 |
+Epoch 00002 | Time(s) 6.6684 | 
+TrainLoss 0.2200 | TrainAcc 0.9173 | TrainPrecision 0.8881 | TrainRecall 0.8389 | TrainMacroF1 0.8604
+ValLoss 0.1912   | ValAcc 0.9278   | ValPrecision 0.8840    | ValRecall 0.8630   | ValMacroF1 0.8730
+ETputs(KTEPS) 2034.45
+
+| Apr 02 17:59:28 |
+Epoch 00003 | Time(s) 6.8008 | 
+TrainLoss 0.1749 | TrainAcc 0.9313 | TrainPrecision 0.9003 | TrainRecall 0.8773 | TrainMacroF1 0.8881
+ValLoss 0.1832   | ValAcc 0.9327   | ValPrecision 0.8754    | ValRecall 0.9054   | ValMacroF1 0.8893
+ETputs(KTEPS) 1994.83
+
+| Apr 02 18:16:28 |
+Epoch 00004 | Time(s) 7.0340 | 
+TrainLoss 0.1692 | TrainAcc 0.9365 | TrainPrecision 0.9035 | TrainRecall 0.8929 | TrainMacroF1 0.8981
+ValLoss 0.2092   | ValAcc 0.9157   | ValPrecision 0.8446    | ValRecall 0.8914   | ValMacroF1 0.8651
+ETputs(KTEPS) 1928.70
+
+| Apr 02 18:18:59 |
+Epoch 00005 | Time(s) 6.9409 | 
+TrainLoss 0.1619 | TrainAcc 0.9394 | TrainPrecision 0.9064 | TrainRecall 0.9005 | TrainMacroF1 0.9034
+ValLoss 0.1585   | ValAcc 0.9327   | ValPrecision 0.8853    | ValRecall 0.8839   | ValMacroF1 0.8846
+ETputs(KTEPS) 1954.57
+
+| Apr 02 18:21:30 |
+Epoch 00006 | Time(s) 6.8748 | 
+TrainLoss 0.1473 | TrainAcc 0.9440 | TrainPrecision 0.9140 | TrainRecall 0.9075 | TrainMacroF1 0.9107
+ValLoss 0.1590   | ValAcc 0.9311   | ValPrecision 0.8721    | ValRecall 0.9044   | ValMacroF1 0.8870
+ETputs(KTEPS) 1973.36
+
+| Apr 02 18:24:02 |
+Epoch 00007 | Time(s) 6.8292 | 
+TrainLoss 0.1413 | TrainAcc 0.9476 | TrainPrecision 0.9156 | TrainRecall 0.9190 | TrainMacroF1 0.9173
+ValLoss 0.1702   | ValAcc 0.9351   | ValPrecision 0.8991    | ValRecall 0.8728   | ValMacroF1 0.8852
+ETputs(KTEPS) 1986.55
+
+| Apr 02 18:26:34 |
+Epoch 00008 | Time(s) 6.8135 | 
+TrainLoss 0.1351 | TrainAcc 0.9438 | TrainPrecision 0.9137 | TrainRecall 0.9068 | TrainMacroF1 0.9102
+ValLoss 0.1519   | ValAcc 0.9400   | ValPrecision 0.9354    | ValRecall 0.8525   | ValMacroF1 0.8868
+ETputs(KTEPS) 1991.13
+
+| Apr 02 18:29:14 |
+Epoch 00009 | Time(s) 6.7973 | 
+TrainLoss 0.1339 | TrainAcc 0.9516 | TrainPrecision 0.9285 | TrainRecall 0.9164 | TrainMacroF1 0.9223
+ValLoss 0.1360   | ValAcc 0.9465   | ValPrecision 0.9031    | ValRecall 0.9173   | ValMacroF1 0.9100
+ETputs(KTEPS) 1995.86
+
+| Apr 02 18:29:14 |
+Best val result: ValAcc 0.9465   | ValPrecision 0.9031    | ValRecall 0.9173   | ValMacroF1 0.9100
+
+| Apr 02 18:29:14 |
+              precision    recall  f1-score   support
+
+         0.0   0.972112  0.962525  0.967294      1014
+         1.0   0.834061  0.872146  0.852679       219
+
+    accuracy                       0.946472      1233
+   macro avg   0.903086  0.917335  0.909986      1233
+weighted avg   0.947592  0.946472  0.946937      1233
+
+| Apr 02 18:29:14 |
+[[976  38]
+ [ 28 191]]
+| Apr 02 18:32:56 |
+Test set: TestAcc 0.9635   | TestPrecision 0.9343    | TestRecall 0.9420   | TestMacroF1 0.9381
+
+| Apr 02 18:32:56 |
+              precision    recall  f1-score   support
+
+         0.0   0.980178  0.975345  0.977756      1014
+         1.0   0.888393  0.908676  0.898420       219
+
+    accuracy                       0.963504      1233
+   macro avg   0.934286  0.942010  0.938088      1233
+weighted avg   0.963876  0.963504  0.963665      1233
+
+| Apr 02 18:32:56 |
+[[989  25]
+ [ 20 199]]

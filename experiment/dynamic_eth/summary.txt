@@ -1,0 +1,35 @@
+Model Performance Summary for dynamic_eth
+========================================
+
+Model: GCN - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GraphSAGE
+----------------------------------------
+Best val result: ValAcc 0.9444   | ValPrecision 0.8144    | ValRecall 0.7515   | ValMacroF1 0.7757
+
+Model: GAT
+----------------------------------------
+Best val result: ValAcc 0.9333   | ValPrecision 0.8009    | ValRecall 0.7517   | ValMacroF1 0.7704
+
+Model: ECConv - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: GTEA-ST
+----------------------------------------
+Best val result: ValAcc 0.9444   | ValPrecision 0.8105    | ValRecall 0.7314   | ValMacroF1 0.7631
+
+Model: EGNN
+----------------------------------------
+Best val result: ValAcc 0.8667   | ValPrecision 0.8054    | ValRecall 0.7345   | ValMacroF1 0.7594
+
+Model: GAT+T - Failed
+----------------------------------------
+Error occurred during execution
+
+Model: TGAT - Failed
+----------------------------------------
+Error occurred during execution
+
