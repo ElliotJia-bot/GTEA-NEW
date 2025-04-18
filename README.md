@@ -3,7 +3,7 @@ Dependencies(not include all)
 - torch v1.4:
 - sklearn
 - tensorflow (for tensorboard)
-- dgl
+- dgl v0.4.3
 ```bash
 $ pip install -r requirements.txt
 ```
@@ -86,6 +86,16 @@ python main.py --data-dir ./data/test --model GraphSAGE
 - num_cpu: number of cpu used for minibatch sampling and neighbor sampling
 
 # Experimental Results
+
+## 3. Datastes Reference
+
+Ethereum Phishing Transaction Network: 
+    https://www.kaggle.com/datasets/xblock/ethereum-phishing-transaction-network
+IBM Transactions for Anti Money Laundering (AML):
+    https://www.kaggle.com/datasets/ealtman2019/ibm-transactions-for-anti-money-laundering-aml
+Anti Money Laundering Transaction Data (SAML-D):
+    https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
+
 
 ## IBM_HI_S Dataset
 - Model: GTEA-LSTM+T2V
