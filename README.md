@@ -96,6 +96,8 @@ IBM Transactions for Anti Money Laundering (AML):
 Anti Money Laundering Transaction Data (SAML-D):
     https://www.kaggle.com/datasets/berkanoztas/synthetic-transaction-monitoring-dataset-aml
 
+Please put datasets under ./data
+Before using datasets pleases use preprocessing.py to process datasets
 
 ## IBM_HI_S Dataset
 - Model: GTEA-LSTM+T2V
