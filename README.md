@@ -87,7 +87,7 @@ python main.py --data-dir ./data/test --model GraphSAGE
 
 # Experimental Results
 
-## 3. Datastes Reference
+## Datastes Reference
 
 Ethereum Phishing Transaction Network: 
     https://www.kaggle.com/datasets/xblock/ethereum-phishing-transaction-network
